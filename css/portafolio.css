@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .header {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f3922a;
+    color: #fff;
+  }
+
+  body{
+    background-color: #f3922a;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+  }
+  .brand {
+    margin-top: -7px;
+  }
+  
+  .brand span {
+    color: aqua;
+  }
+  .menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+  }
+  .menu  li {
+    list-style: none;
+  
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px; 
+  }
+  
+  .menu li:hover a{
+    background-color: aqua;
+    color: #191c32;
+  }
+  
+  .menu .active {
+    color: aqua;
+   
+  }
+  
+  
+  .menu li a:hover {
+    color: #66E7C8;
+  }
+  
+  
+  .main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2em;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  .info-content span {
+    color: aqua;
+  }
+ 
+  .card{
+    display: inline-block;
+    left: 0px;
+}
+
+.proyecto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 120px;
+    margin: 140px;
+    padding: 30px;
+    position: absolute;
+    top: -20px;
+}
+
+.proyecto2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 120px;
+    margin: 140px;
+    padding: 30px;
+    position: absolute;
+    top: 540px;
+}
+
+.proyecto3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 120px;
+  margin: 140px;
+  padding: 30px;
+  position: absolute;
+  top: 1100px;
+}
+
+
+.proyecto4{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 120px;
+  margin: 140px;
+  padding: 30px;
+  position: absolute;
+  top: 1665px;
+}
+
+.proyecto5{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 120px;
+  margin: 120px;
+  padding: 30px;
+  position: absolute;
+  top: 2350px;
+}
+
+.proyecto6{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 120px;
+  margin: 140px;
+  padding: 30px;
+  position: absolute;
+  top: 2060px;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 110vw;
+    height: 200px;
+    padding: 2em;
+    background-color: #ffbc2d;
+    position: absolute;
+    top: 2980px;
+  }
+
+  .parent img {
+  border:  7px solid aqua;
+  width: 350px;
+  height: 520px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: static;
+  margin: -20px;
+  }
+
+  .parent2 img {
+    border:  7px solid aqua;
+    width: 350px;
+    height: 350px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+    margin: -20px;
+    }
+
+    .parent3 img {
+      border:  7px solid aqua;
+      width: 350px;
+      height: 350px;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: static;
+      margin: -20px;
+      }
+
+
+  .footer-content h2 {
+    font-size: 3.2em;
+  }
+  
+  .footer-content h5 {
+    font-size: 1.5em;
+    text-align: center;
+  }

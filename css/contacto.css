@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .header {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FA9A62;
+    color: #fff;
+  }
+
+  body{
+    background-color: #FA9A62;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+  }
+  .brand {
+    margin-top: -7px;
+  }
+  
+  .brand span {
+    color: aqua;
+  }
+  .menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+  }
+  .menu  li {
+    list-style: none;
+  
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px; 
+  }
+  
+  .menu li:hover a{
+    background-color: aqua;
+    color: #191c32;
+  }
+  
+  .menu .active {
+    color: aqua;
+   
+  }
+  
+  
+  .menu li a:hover {
+    color: #66E7C8;
+  }
+  
+  
+  .main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2em;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  .info-content span {
+    color: aqua;
+  }
+ 
+
+  div{
+    position: relative;
+    margin: 10px;
+    color: white;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+    section{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        position: relative;
+        top: -500px;
+        
+    }
+    
+    .form{
+        margin: 30px;
+        position: relative;
+        padding: 40px;
+        background: white;
+        border: grey;
+        border-radius: 10px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form .input-box{
+        position: relative;
+    }
+    
+    .form .input-box input{
+        position: relative;
+        width: 100%;
+        padding: 15px 20px;
+        outline: none;
+        color: white;
+    }
+    
+    a input{
+        margin: 10px;
+        background-color: #FC461F;
+    }
+
+    .redes{
+        justify-content: space-between;
+        top: -300px;
+        margin: 100px;
+    }
